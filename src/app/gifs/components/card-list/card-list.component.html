@@ -1,11 +1,11 @@
 <div class="row">
-    <div class="col-md-3 col-sm-6">
+    <div *ngFor="let git of gifs" class="col-md-3 col-sm-6">
         <div class="card mb-2 text-center bg-dark">
 
             <!-- TODO: Crear imagen del Gif -->
             <div class="card-body text-white">
                 <p class="card-text">
-                    Hola card of gif
+                    {{ git.title }}
                 </p>
             </div>
 
