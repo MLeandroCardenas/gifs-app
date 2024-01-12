@@ -22,6 +22,7 @@ export class GifsService {
         }
         this._tagsHistory.unshift( tag );
         this._tagsHistory = this._tagsHistory.splice(0,10);
+        this.saveLocalStorage();
     }
 
     public searchTag( tag: string ): void {
@@ -36,6 +37,10 @@ export class GifsService {
         .subscribe( resp => {
             this.gifList = resp.data;
         } )
+    }
+
+    private saveLocalStorage(): void {
+        localStorage.setItem('history',  JSON.stringify(this._tagsHistory));
     }
 
     // Getters and setters
