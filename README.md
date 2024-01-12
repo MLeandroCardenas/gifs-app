@@ -29,3 +29,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## instalacion de boostrap
 `npm install bootstrap jquery @popperjs/core --save`
+
+## libreria utilizada para los loaders
+[https://samherbert.net/svg-loaders/](https://samherbert.net/svg-loaders/)
+
+[https://github.com/SamHerbert/SVG-Loaders](https://github.com/SamHerbert/SVG-Loaders)
+
+
+## libreria utilizada para los efectos css
+[https://animate.style/](https://animate.style/)
+
+
+
