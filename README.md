@@ -41,3 +41,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
+## api consumida para los gifs
+[https://developers.giphy.com/](https://developers.giphy.com/)
+
+
